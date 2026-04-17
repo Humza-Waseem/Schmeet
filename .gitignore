@@ -1,37 +1,17 @@
-# Virtual environment
-venv/
-
-# Django specific files
-*.log
-*.pot
-*.pyc
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
 __pycache__/
+*.py[cod]
+node_modules/
+cloudinary_python.txt
 db.sqlite3
-*.sqlite3
-
-# Static and media files
-/staticfiles/
-/mediafiles/
-/media/
-
-# VS Code settings
-.vscode/
-
-# MacOS files
-.DS_Store
-
-# PyCharm settings
-.idea/
-
-# Coverage reports
-htmlcov/
-*.cover
-*.py,cover
 .coverage
-.coverage.*
-
-# Migrations
-*/migrations/*
-
-# Python environment variables
+sass/
+staticfiles/
+fixtures_sensitive/
+test_accounts.txt
+backup_private_fixture.json
+venv/
 .env
